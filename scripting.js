@@ -28,7 +28,7 @@ function checkLeader(){
         statusEl.textContent='Home Team is ahead!';
     }
     else if(guestScore > homeScore){
-        statusEl.textContent='Guest Team is ahead!';
+        statusEl.textContent='Opponent Team is ahead!';
     }
     else{
         statusEl.textContent='Both teams are equal'
